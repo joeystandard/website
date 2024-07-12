@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1000px; /* Adjust as needed */
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid pink; /* Pink bottom border */
+    padding-bottom: 5px; /* Space between content and border */
+    display: inline-block; /* Ensures border spans only the width of the text */
+    color: pink; /* Set text color to pink */
+}
+
+
+
+
+h2 {
+    color: #666;
+}
+
+#gallery {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin: 20px; /* Adjust as needed */
+    display: inline-block;
+    position: relative;
+}
+
+video {
+    width: 400px; /* Adjust video width as needed */
+    height: 300px; /* Adjust video height as needed */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.video-title {
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+iframe {
+    width: 100%; /* Example: Make every iframe full width of its container */
+    height: 450px; /* Example: Set a fixed height for every iframe */
+    border: 2px solid #ccc; /* Example: Add a border around each iframe */
+    margin-bottom: 20px; /* Example: Add space below each iframe */
+}
+        .iframe-2 {
+            padding-bottom: 0; /* Reset the padding */
+   	    height: 315px; /* Example: Set a fixed height for every iframe */
+            width: 450px; /* Set a fixed height for specific iframe-2 videos */
+        }
+
+
+#images {
+    text-align: center;
+}
+
+.image-container {
+    margin: 20px; /* Adjust as needed */
+    display: inline-block;
+    position: relative;
+}
+
+.image-container img {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Adjust scale factor for hover effect */
+}
+
+.image-container p {
+    color: black;
+    margin-top: 5px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    overflow: auto;
+}
+
+.popup-image {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close-popup {
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+}
+
+
+.button-links {
+    margin-top: 10px; /* Space between title and buttons */
+}
+
+.button-links a {
+    margin: 0 10px; /* Adjust spacing between buttons */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set color for button links */
+}
+
+.button-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+        .quotes {
+            margin: 20px 0;
+        }
+        .quote {
+            background-color: rgba(255, 182, 193, 0.8); /* Light pink background */
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+.bold-text {
+    font-weight: bold;
+}
